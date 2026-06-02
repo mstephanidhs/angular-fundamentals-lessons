@@ -16,6 +16,8 @@ import { Todo } from './todo';
 // the value of zero or more signals
 // make something happen when one of the signals changes
 
+// Lazy loading helps keep initial bundle sizes smaller
+
 @Component({
   selector: 'app-root',
   standalone: true,
